@@ -198,6 +198,13 @@ function displayHighlights(data) {
                 <div class="visibility-status">${getVisibilityStatus(vis_km)}</div>
             </div>
         </div>
+        <div class="highlight-card">
+                <h3>Air Quality</h3>
+                <div class="air-quality">
+                    <div class="aqi-value">N/A</div>
+                    <div class="aqi-status">N/A</div>
+                </div>
+            </div>
     `;
 }
 

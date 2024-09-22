@@ -1,5 +1,4 @@
-/* styles.css */
-* {
+html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -143,7 +142,7 @@ nav button.active {
 .weather-icon img {
     width: 70px;
     height: auto;
-    max-height: 7vw;
+    max-height: 85px;
 }
 
 .temperature {
@@ -178,7 +177,7 @@ nav button.active {
 
 .highlight-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 465px);
     gap: 20px;
 }
 
